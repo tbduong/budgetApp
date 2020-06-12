@@ -10,7 +10,7 @@
 $primary: #85B79D;
 $secondary: #4A7B9D;
 $font-primary: #22181C;
-$font-secondary: #54577C;
+$font-secondary: #7b81d4;
 
 //Add global variables
 $font-family: 'Ubuntu', sans-serif;
@@ -27,5 +27,6 @@ h1, h2, h3, h4, h5, h6, p {
 
   h1 {
     text-align: center;
+    text-transform: uppercase;
   }
 }

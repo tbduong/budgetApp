@@ -1,0 +1,11 @@
+@import '../../styles.scss';
+
+.calculator {
+  background: #010101;
+  height: 200px;
+    h3 {
+      color: $font-secondary;
+      text-align: center;
+      margin: auto;
+    }
+}
