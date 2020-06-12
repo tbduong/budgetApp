@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+@charset "utf-8";
+
+//Import Google Font
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+//Brand Colors TBD
+$primary: #85B79D;
+$secondary: #4A7B9D;
+$font-primary: #22181C;
+$font-secondary: #54577C;
+
+//Add global variables
+$font-family: 'Ubuntu', sans-serif;
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: $font-family;
+  color: $font-primary;
+}
+
+.main-content {
+  display: block;
+  padding: 30px;
+  background: $primary;
+
+  h1 {
+    text-align: center;
+  }
+}
